@@ -1,1 +1,1 @@
-This is the first file to commit
+This is the first file to commit. Modified to check git status
