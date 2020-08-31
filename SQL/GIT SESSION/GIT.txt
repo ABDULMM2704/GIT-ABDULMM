@@ -58,3 +58,28 @@ MASTER  C4		C4
 			MASTER
 Step8: git rebase branch
 Step9: Push 2
+
+--Adding SSH to Git Hub
+
+Your contributions may be from that machine, but you need to check how you have set up your remotes
+
+try the following command:
+
+git remote -v
+
+That will list your remotes
+
+If it is something like
+
+origin https://github.com/......
+
+You are connecting over https, and not SSH
+
+You'll need to remove that remote -
+
+git remote rm origin
+
+Then, add that as the remote-
+
+git remote add origin "YOUR SSH PATH"
+
