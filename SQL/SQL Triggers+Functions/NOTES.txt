@@ -1,0 +1,20 @@
+Date:25-07-2020
+
+Topic: SQL Functions and Triggers
+
+SQL Functions:
+
+	     Basically used for calculated columns or calculations. MUST INLCUED A PARAMETER
+             Two types 1. Scalar - Single Value 2. Table Valued - Result set will be a table
+
+
+
+TRIGGERS: TO CAPTURE DML,DDL CHANGES. IT AUTOMATICALLY FIRES WHEN AN EVENT HAPPENED ON TABLE OR DATABASE
+
+MAGIC TALES - INSERTED [INSERT AND UPDATE] DELETED [DELETE]
+
+DML - 1. AFTER TRIGGER 2. INSTEAD OF TRIGGERS
+
+DDL - CREATE,DROP,ALTER
+
+LOGON TRIGGERS - DATABASE LOGIN INFORMATION  
