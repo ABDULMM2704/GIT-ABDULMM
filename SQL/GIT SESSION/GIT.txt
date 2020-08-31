@@ -57,3 +57,4 @@ C3			C3
 MASTER  C4		C4
 			MASTER
 Step8: git rebase branch
+Step9: Push
