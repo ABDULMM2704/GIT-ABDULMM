@@ -1,0 +1,63 @@
+GOTO YOUR LOCAL FOLDER AND RIGHT CLICK AND SELECT GIT BASH HERE
+	GIT INIT
+	
+CREATE SSH KEY: ssh-keygen AND GENERATE A KEY AND ADD IT TO YOUR GIT HUB ACCOUNT IN SETTINGS > SSH KEYS > NEW KEY
+
+STEP2: GIT REMOTE ADD ORIGIN "YOUR SSH PATH"
+
+STEP3: ssh -T git@github.com
+
+ADD FILE:
+	git add FILENAME
+	git add -A --adds all files to index
+	
+COMMIT FILE:
+	git commit -m "YOUR COMMENT"
+	git commit -a -m "YOUR COMMENT" here -a means committing all the files
+	
+PUSH:
+	git push origin BRANCHNAME
+	
+PULL:
+	git pull origin BRANCHNAME
+	
+CREATE BRANCH:
+	git branch BRANCHNAME
+	
+CHECKING BRANCH:
+	git checkout BRANCHNAME
+	
+MERGE BRANCH:
+	git merge BRANCHNAME
+	
+REBASE:
+	git rebase BRANCHNAME
+	
+BASIC COMMANDS:
+	ls -- lists out all the available files in the repo
+	cat "path" -- reads the file data
+
+--Adding SSH to Git Hub
+
+Your contributions may be from that machine, but you need to check how you have set up your remotes
+
+try the following command:
+
+	git remote -v
+
+That will list your remotes
+
+If it is something like
+
+origin https://github.com/......
+
+You are connecting over https, and not SSH
+
+You'll need to remove that remote -
+
+	git remote rm origin
+
+Then, add that as the remote-
+
+	git remote add origin "YOUR SSH PATH"
+
