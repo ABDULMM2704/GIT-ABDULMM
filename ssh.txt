@@ -1,1 +1,1 @@
-ssh new
+ssh new 2
