@@ -1,29 +1,29 @@
 <?xml version="1.0"?>
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
-    <Name>SSIS-TUTORIALS</Name>
-    <LastWriteTime>2021-05-16T23:12:03.304984Z</LastWriteTime>
+    <Name>SSIS-LABS-EXAMPLES</Name>
+    <LastWriteTime>2021-05-17T17:20:09.1987045Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
-      <Name>AGENT-TEST.dtsx</Name>
-      <LastWriteTime>2021-05-16T14:17:52.7062165Z</LastWriteTime>
+      <Name>TableLogExample.dtsx</Name>
+      <LastWriteTime>2021-05-17T17:13:49.4358184Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
-      <Name>ForLoopExample.dtsx</Name>
-      <LastWriteTime>2021-05-16T22:33:42.5845318Z</LastWriteTime>
+      <Name>AGENT-TEST.dtsx</Name>
+      <LastWriteTime>2021-05-17T17:13:49.4707154Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>ForEachLoopExample.dtsx</Name>
-      <LastWriteTime>2021-05-16T23:04:07.8991206Z</LastWriteTime>
+      <LastWriteTime>2021-05-17T17:19:44.1302344Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
-      <Name>TableLogExample.dtsx</Name>
-      <LastWriteTime>2021-05-16T23:11:10.3550061Z</LastWriteTime>
+      <Name>ForLoopExample.dtsx</Name>
+      <LastWriteTime>2021-05-17T17:19:46.9938575Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>

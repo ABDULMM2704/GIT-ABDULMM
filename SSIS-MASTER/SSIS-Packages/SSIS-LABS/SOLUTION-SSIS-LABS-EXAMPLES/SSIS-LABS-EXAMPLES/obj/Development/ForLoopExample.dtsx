@@ -1,25 +1,25 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
   DTS:CreationDate="5/17/2021 3:30:51 AM"
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="LAPTOP-1H8H7BRJ"
   DTS:CreatorName="LAPTOP-1H8H7BRJ\Ahmed's Thinkpad"
-  DTS:DTSID="{5DE47C5D-281A-445D-94A6-0CACBD722212}"
+  DTS:DTSID="{93DB6A7D-CF1E-4E56-90B8-7B4B730B375F}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="15.0.2000.166"
   DTS:LocaleID="16393"
   DTS:ObjectName="ForLoopExample"
   DTS:PackageType="5"
-  DTS:VersionBuild="5"
-  DTS:VersionGUID="{036B8886-B877-42FC-BD31-7A2AAF490480}">
+  DTS:VersionBuild="6"
+  DTS:VersionGUID="{F3C432E7-3313-4A92-9B3C-C5A799AF52DD}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[CSV FILE]"
       DTS:CreationName="FLATFILE"
-      DTS:DTSID="{80803CE1-CC7F-414A-B2E7-D2DC0D798FCF}"
+      DTS:DTSID="{32348429-0276-440C-80E7-7180845B87B1}"
       DTS:ObjectName="CSV FILE">
       <DTS:PropertyExpression
         DTS:Name="ConnectionString">""+@[User::FolderPath]+"\\Customer"+(DT_WSTR,12) @[User::LoopCount] +".csv"</DTS:PropertyExpression>
@@ -40,7 +40,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="CustomerID"
-              DTS:DTSID="{F24193E5-F270-457C-ACB8-1DDA554C1704}"
+              DTS:DTSID="{1AAAEB02-FF1C-483F-975E-772836510DCC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -48,7 +48,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="PersonID"
-              DTS:DTSID="{51BC127D-CD4A-42FC-96E2-401BD62B793F}"
+              DTS:DTSID="{FEDAFD0F-5EED-4AFF-AA75-EA7F5C66A3BC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -56,7 +56,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="StoreID"
-              DTS:DTSID="{B13EFD9D-A59B-4463-8EEB-23F2E52BE50E}"
+              DTS:DTSID="{73C1771F-1F0D-4025-B877-DE22E25C6CDB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -64,7 +64,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="TerritoryID"
-              DTS:DTSID="{F5588D3E-E3A1-4F05-B385-1D90003EB1F4}"
+              DTS:DTSID="{A258CEF9-7056-4B71-8A4E-E6FCEA68CA0D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -73,7 +73,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="AccountNumber"
-              DTS:DTSID="{E24B5700-C580-4E13-BEA6-617D6DD73631}"
+              DTS:DTSID="{C8CAB35F-230E-4B16-9B15-03CD83993216}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -81,7 +81,7 @@
               DTS:DataType="72"
               DTS:TextQualified="True"
               DTS:ObjectName="rowguid"
-              DTS:DTSID="{90859203-FDD1-4E3A-992A-8D4CDEDDD84D}"
+              DTS:DTSID="{1F236B2A-5610-4199-9C4F-6397AD3627F0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -89,7 +89,7 @@
               DTS:DataType="135"
               DTS:TextQualified="True"
               DTS:ObjectName="ModifiedDate"
-              DTS:DTSID="{690B28A2-8120-4DBF-89C9-3BFFC1D15A4C}"
+              DTS:DTSID="{6A56D5CD-1931-4EA3-B8EF-C6D02FC03F37}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -98,7 +98,7 @@
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[LAPTOP-1H8H7BRJ.AdventureWorks2019]"
       DTS:CreationName="OLEDB"
-      DTS:DTSID="{9F05D184-E7CB-43AF-B520-0EDB19C14FB8}"
+      DTS:DTSID="{A46E1CF7-7A1E-48DA-AFA4-A763D35A4D73}"
       DTS:ObjectName="LAPTOP-1H8H7BRJ.AdventureWorks2019">
       <DTS:ObjectData>
         <DTS:ConnectionManager
@@ -110,7 +110,7 @@
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[LAPTOP-1H8H7BRJ.SQL-TEST]"
       DTS:CreationName="OLEDB"
-      DTS:DTSID="{43EAA1B2-0A58-4CE9-A5F7-8D71A39569DD}"
+      DTS:DTSID="{47754DA0-CC7C-4DEC-A236-52D0A8235160}"
       DTS:ObjectName="LAPTOP-1H8H7BRJ.SQL-TEST">
       <DTS:ObjectData>
         <DTS:ConnectionManager
@@ -123,7 +123,7 @@
   <DTS:Variables>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{BB9D022D-76AB-4637-9EE2-6BBA9F3D2A37}"
+      DTS:DTSID="{3CF9EC5C-62C4-40C0-8DDA-16A52BB2873E}"
       DTS:IncludeInDebugDump="2345"
       DTS:Namespace="User"
       DTS:ObjectName="FilePath">
@@ -133,7 +133,7 @@
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{202F8ECC-C1BD-4F20-B02A-BE646BF4F898}"
+      DTS:DTSID="{99F20716-DFF4-4A15-A379-41DF848CA072}"
       DTS:IncludeInDebugDump="2345"
       DTS:Namespace="User"
       DTS:ObjectName="FolderPath">
@@ -142,7 +142,7 @@
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{A0AFA794-CCC6-4860-A4DE-0BFD89045C08}"
+      DTS:DTSID="{812B3D81-86B0-4AD8-8220-E8BC789B1297}"
       DTS:IncludeInDebugDump="6789"
       DTS:Namespace="User"
       DTS:ObjectName="LoopCount">
@@ -151,7 +151,7 @@
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{169801EC-2F97-4F0B-8765-98C6303BCC85}"
+      DTS:DTSID="{7D2A6889-D3D6-4CCE-AF7B-A49E9630CCB7}"
       DTS:IncludeInDebugDump="6789"
       DTS:Namespace="User"
       DTS:ObjectName="MAXID">
@@ -165,7 +165,7 @@
       DTS:AssignExpression="@LoopCount = @LoopCount +1"
       DTS:CreationName="STOCK:FORLOOP"
       DTS:Description="For Loop Container"
-      DTS:DTSID="{CF30AC0D-CE3B-4F23-A1F0-B38059E967E0}"
+      DTS:DTSID="{48F32AF8-D57A-4EF4-9D5F-25FC83E66B29}"
       DTS:EvalExpression="@LoopCount &lt;= @MAXID"
       DTS:ExecutableType="STOCK:FORLOOP"
       DTS:InitExpression="@LoopCount = 1"
@@ -178,7 +178,7 @@
           DTS:refId="Package\For Loop Container\Export Data to CSV"
           DTS:CreationName="Microsoft.Pipeline"
           DTS:Description="Data Flow Task"
-          DTS:DTSID="{C7EC6379-7B18-41D4-99B9-F3F5DF5AF34C}"
+          DTS:DTSID="{24C0CFCE-5E53-4AF2-8264-65FF7B4017AA}"
           DTS:ExecutableType="Microsoft.Pipeline"
           DTS:LocaleID="-1"
           DTS:ObjectName="Export Data to CSV"
@@ -351,7 +351,7 @@
                     <property
                       dataType="System.String"
                       description="The mappings between the parameters in the SQL command and variables."
-                      name="ParameterMapping">"Parameter0:Input",{A0AFA794-CCC6-4860-A4DE-0BFD89045C08};</property>
+                      name="ParameterMapping">"Parameter0:Input",{812B3D81-86B0-4AD8-8220-E8BC789B1297};</property>
                   </properties>
                   <connections>
                     <connection
@@ -542,7 +542,7 @@
       DTS:refId="Package\GET MAX ID"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
-      DTS:DTSID="{BFC89A71-7E45-4C68-974A-69598E678878}"
+      DTS:DTSID="{A4D4D3CA-4FBA-469D-9FEF-0EFCDE06CDAE}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="GET MAX ID"
@@ -551,7 +551,7 @@
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
-          SQLTask:Connection="{9F05D184-E7CB-43AF-B520-0EDB19C14FB8}"
+          SQLTask:Connection="{A46E1CF7-7A1E-48DA-AFA4-A763D35A4D73}"
           SQLTask:SqlStatementSource="SELECT MAX(TERRITORYID) FROM SALES.CUSTOMER"
           SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
           <SQLTask:ResultBinding
@@ -565,7 +565,7 @@
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint]"
       DTS:CreationName=""
-      DTS:DTSID="{316BC7DD-38A9-4E44-A470-4DA3CC182292}"
+      DTS:DTSID="{BBB80E52-F152-4044-B3E8-5EB4EA05C890}"
       DTS:From="Package\GET MAX ID"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint"
@@ -584,10 +584,6 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="142,42"
-          Id="Package\GET MAX ID"
-          TopLeft="394,20" />
-        <NodeLayout
           Size="175,42"
           Id="Package\For Loop Container\Export Data to CSV"
           TopLeft="32,33" />
@@ -598,6 +594,10 @@
           Size="230,173"
           Id="Package\For Loop Container"
           TopLeft="346,147" />
+        <NodeLayout
+          Size="142,42"
+          Id="Package\GET MAX ID"
+          TopLeft="394,20" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
           TopLeft="463,62">
@@ -629,27 +629,27 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
+          Size="176,42"
+          Id="Package\For Loop Container\Export Data to CSV\Flat File Destination"
+          TopLeft="406,206" />
+        <NodeLayout
           Size="157,42"
           Id="Package\For Loop Container\Export Data to CSV\OLE DB Source"
           TopLeft="414,114" />
-        <NodeLayout
-          Size="176,42"
-          Id="Package\For Loop Container\Export Data to CSV\Flat File Destination"
-          TopLeft="410,310" />
         <EdgeLayout
           Id="Package\For Loop Container\Export Data to CSV.Paths[OLE DB Source Output]"
-          TopLeft="495.25,156">
+          TopLeft="493.25,156">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,154"
+              EndConnector="0,50"
               Start="0,0"
-              End="0,146.5">
+              End="0,42.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,146.5" />
+                    End="0,42.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>

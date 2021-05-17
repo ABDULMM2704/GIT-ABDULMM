@@ -8,8 +8,6 @@
         <UseWinAuth>false</UseWinAuth>
         <WinAuthUserName />
         <WinAuthDomain />
-        <ServerName>LAPTOP-1H8H7BRJ</ServerName>
-        <PathOnServer>/SSISDB/SSIS-TUTORIALS/SSIS-TUTORIALS</PathOnServer>
         <UserIDs />
         <UserPasswords />
         <OfflineMode>false</OfflineMode>
@@ -18,7 +16,7 @@
           <ConfigurationSetting>
             <Id>LastModifiedTime</Id>
             <Name>LastModifiedTime</Name>
-            <Value xsi:type="xsd:dateTime">2021-05-13T23:36:25.756328Z</Value>
+            <Value xsi:type="xsd:dateTime">2021-05-17T17:14:14.3079936Z</Value>
           </ConfigurationSetting>
         </ParameterConfigurationSensitiveValues>
       </Options>

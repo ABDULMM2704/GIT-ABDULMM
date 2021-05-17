@@ -5,7 +5,7 @@
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="LAPTOP-1H8H7BRJ"
   DTS:CreatorName="LAPTOP-1H8H7BRJ\Ahmed's Thinkpad"
-  DTS:DTSID="{0F406B6C-9C65-4AC7-978D-CAAFEB89AB18}"
+  DTS:DTSID="{BB67CB6C-8F44-4ECB-8DA6-B6C931723154}"
   DTS:EnableConfig="True"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="15.0.2000.166"
@@ -13,14 +13,14 @@
   DTS:ObjectName="TableLogExample"
   DTS:PackageType="5"
   DTS:VersionBuild="94"
-  DTS:VersionGUID="{55AF9CB1-21D2-4F8D-9016-4FB60EAB5817}">
+  DTS:VersionGUID="{56F1757B-1BC2-408F-ACC2-E03916F46464}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[Flat File Connection Manager]"
       DTS:CreationName="FLATFILE"
-      DTS:DTSID="{2ABE1FB9-EA50-433B-BDD6-CEAFA1001A47}"
+      DTS:DTSID="{3B9B7B6C-DC38-455F-8DA8-CF48E6EC6D24}"
       DTS:ObjectName="Flat File Connection Manager">
       <DTS:PropertyExpression
         DTS:Name="ConnectionString">@[User::FilePath]</DTS:PropertyExpression>
@@ -42,7 +42,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ID"
-              DTS:DTSID="{661C1679-F41C-4BB9-B867-F9B32771480D}"
+              DTS:DTSID="{877E4715-EABC-43FA-B9B9-96ABD37EE071}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -51,7 +51,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="TYPE_OR_NAME"
-              DTS:DTSID="{0FB37157-CEAD-4B7E-8FCF-233731951FD5}"
+              DTS:DTSID="{18615C63-D8AF-4B97-A03C-3EA8B03D6807}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -60,7 +60,7 @@
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[LAPTOP-1H8H7BRJ.SQL-TEST]"
       DTS:CreationName="OLEDB"
-      DTS:DTSID="{C15D3E77-68DD-4F1A-B51E-B0A96C5F926A}"
+      DTS:DTSID="{A41EDE56-8F2D-431B-9C83-4C43603D1CE9}"
       DTS:ObjectName="LAPTOP-1H8H7BRJ.SQL-TEST">
       <DTS:ObjectData>
         <DTS:ConnectionManager
@@ -75,13 +75,13 @@
       DTS:ConfigurationString="C:\SOURCECSV\ConnectionConfig.dtsConfig"
       DTS:ConfigurationType="1"
       DTS:CreationName=""
-      DTS:DTSID="{678D345C-8AF7-4FEB-8BAF-D29C38B0846D}"
+      DTS:DTSID="{02DF178A-52B4-4135-B042-BC8068E48323}"
       DTS:ObjectName="Configuration 1" />
   </DTS:Configurations>
   <DTS:Variables>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{AACDB038-3E50-44AC-8792-BC23420AC9BA}"
+      DTS:DTSID="{E2AB108E-241A-4657-AA2D-DBF08D06E30B}"
       DTS:EvaluateAsExpression="True"
       DTS:Expression="@[User::FilePath]"
       DTS:IncludeInDebugDump="2345"
@@ -92,7 +92,7 @@
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{71D2385A-88EE-4563-9F5B-7EF42E54AC8A}"
+      DTS:DTSID="{CD07F5B2-E0A0-4C66-A433-F25168BCAF06}"
       DTS:IncludeInDebugDump="6789"
       DTS:Namespace="User"
       DTS:ObjectName="Record_Count">
@@ -184,7 +184,7 @@
       DTS:refId="Package\DO LOG"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
-      DTS:DTSID="{390FEE9E-CEB8-4D82-897C-F14B8B3FE8BF}"
+      DTS:DTSID="{5D1A6FF4-C27B-4CBD-9507-5C7D90D9DAA2}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="DO LOG"
@@ -196,7 +196,7 @@
         DTS:LoggingMode="2" />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
-          SQLTask:Connection="{C15D3E77-68DD-4F1A-B51E-B0A96C5F926A}"
+          SQLTask:Connection="{A41EDE56-8F2D-431B-9C83-4C43603D1CE9}"
           SQLTask:SqlStatementSource="INSERT INTO LOG_TABLE&#xA;VALUES(?,?,GETDATE())" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
           <SQLTask:ParameterBinding
             SQLTask:ParameterName="0"
@@ -217,7 +217,7 @@
       DTS:refId="Package\EXCEL TO SQL TABLE"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:DTSID="{DDC9CD64-AF74-4ECE-ACDC-EE9E70531ED4}"
+      DTS:DTSID="{A7AC4571-1F34-4C28-8607-B196B0118B61}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
       DTS:ObjectName="EXCEL TO SQL TABLE"
@@ -530,7 +530,7 @@
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint]"
       DTS:CreationName=""
-      DTS:DTSID="{145CA8FE-B064-4544-9776-D8410624D553}"
+      DTS:DTSID="{561C60E7-440D-4939-903D-4BF05BD19564}"
       DTS:From="Package\EXCEL TO SQL TABLE"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint"

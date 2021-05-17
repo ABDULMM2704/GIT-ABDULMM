@@ -1,25 +1,25 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
   DTS:CreationDate="5/17/2021 4:13:05 AM"
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="LAPTOP-1H8H7BRJ"
   DTS:CreatorName="LAPTOP-1H8H7BRJ\Ahmed's Thinkpad"
-  DTS:DTSID="{107732D5-1D24-44A7-8101-BBE2B5083EE0}"
+  DTS:DTSID="{01204972-E424-489D-9D96-B8DFE54ADFF9}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="15.0.2000.166"
   DTS:LocaleID="16393"
   DTS:ObjectName="ForEachLoopExample"
   DTS:PackageType="5"
-  DTS:VersionBuild="3"
-  DTS:VersionGUID="{6441EB06-8851-4FDB-90AA-E973292A0B70}">
+  DTS:VersionBuild="5"
+  DTS:VersionGUID="{281F0E20-09A2-46B6-ABF0-BC9FDA1928DD}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[Flat File Connection Manager]"
       DTS:CreationName="FLATFILE"
-      DTS:DTSID="{D09BEBCA-BF10-4640-BCBB-E4D42F5D825C}"
+      DTS:DTSID="{FB4CD323-F565-4D65-A7F5-799D15A3F065}"
       DTS:ObjectName="Flat File Connection Manager">
       <DTS:PropertyExpression
         DTS:Name="ConnectionString">@[User::FilePath]</DTS:PropertyExpression>
@@ -41,7 +41,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="CustomerID"
-              DTS:DTSID="{B5A28914-148C-4F97-A68D-3D7E465CCAF5}"
+              DTS:DTSID="{C0769D95-4DAD-4A39-BFEF-F36E7D5DFEBF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -50,7 +50,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="PersonID"
-              DTS:DTSID="{9C72E46F-8B5D-4E16-9734-E89692410D54}"
+              DTS:DTSID="{2EA0EABB-07D6-4D1B-ADBD-8096857E1EFD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -59,7 +59,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="StoreID"
-              DTS:DTSID="{6B44E28D-D4D1-44EA-82A3-574E62F5FB3B}"
+              DTS:DTSID="{E8DA4735-B842-4A39-BC18-6B1AAEAB9A62}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -68,7 +68,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="TerritoryID"
-              DTS:DTSID="{E934D101-51A7-43EB-BBF7-8DABFE7A175C}"
+              DTS:DTSID="{C7663F30-A30C-405A-BEA5-4C2BCBFF87FD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -77,7 +77,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="AccountNumber"
-              DTS:DTSID="{0D6699E9-0F4B-419B-AD35-2B3D4FB4C58C}"
+              DTS:DTSID="{E52293AA-D2BF-4473-A0B3-CF15FFA904CF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -86,7 +86,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="rowguid"
-              DTS:DTSID="{693F83BD-040A-4D24-A1E1-2F9C362E2E66}"
+              DTS:DTSID="{5686A3B0-CE77-4C81-A687-CA8F148AC32F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -95,7 +95,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ModifiedDate"
-              DTS:DTSID="{7627435F-7D54-42EB-B5ED-7C75C0592071}"
+              DTS:DTSID="{1B90D48F-371D-4963-8E94-EF34DA5DE274}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -104,7 +104,7 @@
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[LAPTOP-1H8H7BRJ.SQL-TEST]"
       DTS:CreationName="OLEDB"
-      DTS:DTSID="{E0559E08-7C42-4E29-9DF7-DE54B151452D}"
+      DTS:DTSID="{40442C06-4D98-418C-B974-69D93E4BB992}"
       DTS:ObjectName="LAPTOP-1H8H7BRJ.SQL-TEST">
       <DTS:ObjectData>
         <DTS:ConnectionManager
@@ -117,7 +117,7 @@
   <DTS:Variables>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{3AFF92DF-9E91-4E27-9EB9-0514FEFFA2C9}"
+      DTS:DTSID="{EF925401-CD79-419E-A98F-A691E8B2DA49}"
       DTS:IncludeInDebugDump="6789"
       DTS:Namespace="User"
       DTS:ObjectName="FileCount">
@@ -126,7 +126,7 @@
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{A3C149A3-D9E4-44D5-966F-D51D29A94F6C}"
+      DTS:DTSID="{5D8F8CD4-3623-4D06-A555-8E40C2A71017}"
       DTS:IncludeInDebugDump="2345"
       DTS:Namespace="User"
       DTS:ObjectName="FilePath">
@@ -139,14 +139,14 @@
       DTS:refId="Package\Foreach Loop Container"
       DTS:CreationName="STOCK:FOREACHLOOP"
       DTS:Description="Foreach Loop Container"
-      DTS:DTSID="{4ECEE630-8867-40DE-A56F-DC05CBDF0F9D}"
+      DTS:DTSID="{ED6C6987-B24C-46A1-9F05-99FA0AAA80E7}"
       DTS:ExecutableType="STOCK:FOREACHLOOP"
       DTS:LocaleID="-1"
       DTS:ObjectName="Foreach Loop Container">
       <DTS:ForEachEnumerator
         DTS:CreationName="Microsoft.ForEachFileEnumerator"
-        DTS:DTSID="{A272261B-BAC9-4B40-8312-AF2C21BB5178}"
-        DTS:ObjectName="{A272261B-BAC9-4B40-8312-AF2C21BB5178}">
+        DTS:DTSID="{81BC9294-0219-409D-A613-A2075360290F}"
+        DTS:ObjectName="{81BC9294-0219-409D-A613-A2075360290F}">
         <DTS:ObjectData>
           <ForEachFileEnumeratorProperties>
             <FEFEProperty
@@ -166,7 +166,7 @@
           DTS:refId="Package\Foreach Loop Container\Load Data"
           DTS:CreationName="Microsoft.Pipeline"
           DTS:Description="Data Flow Task"
-          DTS:DTSID="{E2FB9BAA-70C2-4142-90F4-2BE7ACF77A5F}"
+          DTS:DTSID="{FA10B499-94E5-401C-A067-8B6365A80D16}"
           DTS:ExecutableType="Microsoft.Pipeline"
           DTS:LocaleID="-1"
           DTS:ObjectName="Load Data"
@@ -687,7 +687,7 @@
           DTS:refId="Package\Foreach Loop Container\LOG TABLE"
           DTS:CreationName="Microsoft.ExecuteSQLTask"
           DTS:Description="Execute SQL Task"
-          DTS:DTSID="{5C0A415E-994D-485A-B153-E158AE6F04A1}"
+          DTS:DTSID="{D31008AA-A7B2-4198-9132-9E0732D39EF5}"
           DTS:ExecutableType="Microsoft.ExecuteSQLTask"
           DTS:LocaleID="-1"
           DTS:ObjectName="LOG TABLE"
@@ -696,7 +696,7 @@
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
-              SQLTask:Connection="{E0559E08-7C42-4E29-9DF7-DE54B151452D}"
+              SQLTask:Connection="{40442C06-4D98-418C-B974-69D93E4BB992}"
               SQLTask:SqlStatementSource="INSERT INTO LOG_TABLE VALUES (?,?,GETDATE())" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
               <SQLTask:ParameterBinding
                 SQLTask:ParameterName="0"
@@ -718,7 +718,7 @@
         <DTS:PrecedenceConstraint
           DTS:refId="Package\Foreach Loop Container.PrecedenceConstraints[Constraint]"
           DTS:CreationName=""
-          DTS:DTSID="{17B5184B-A36C-4EF0-BB2C-24E32B0DD55F}"
+          DTS:DTSID="{94058FDD-4EFD-49F4-BCBB-1F31410D3159}"
           DTS:From="Package\Foreach Loop Container\Load Data"
           DTS:LogicalAnd="True"
           DTS:ObjectName="Constraint"
@@ -727,8 +727,8 @@
       <DTS:ForEachVariableMappings>
         <DTS:ForEachVariableMapping
           DTS:CreationName=""
-          DTS:DTSID="{6CB24247-1F37-46F1-84CF-05C648A65E3F}"
-          DTS:ObjectName="{6CB24247-1F37-46F1-84CF-05C648A65E3F}"
+          DTS:DTSID="{2E4353F9-AE15-40FA-B6C9-37CFFCC7C5DD}"
+          DTS:ObjectName="{2E4353F9-AE15-40FA-B6C9-37CFFCC7C5DD}"
           DTS:ValueIndex="0"
           DTS:VariableName="User::FilePath" />
       </DTS:ForEachVariableMappings>
@@ -753,21 +753,21 @@
         <NodeLayout
           Size="140,42"
           Id="Package\Foreach Loop Container\LOG TABLE"
-          TopLeft="72,149" />
+          TopLeft="68,119" />
         <EdgeLayout
           Id="Package\Foreach Loop Container.PrecedenceConstraints[Constraint]"
-          TopLeft="141.5,65">
+          TopLeft="139.5,65">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,84"
+              EndConnector="0,54"
               Start="0,0"
-              End="0,76.5">
+              End="0,46.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,76.5" />
+                    End="0,46.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -779,8 +779,8 @@
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="301,258"
-          Size="301,301"
+          PanelSize="269,216"
+          Size="269,259"
           Id="Package\Foreach Loop Container"
           TopLeft="470,81" />
       </GraphLayout>
@@ -792,27 +792,31 @@
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
+          Size="177,42"
+          Id="Package\Foreach Loop Container\Load Data\OLE DB Destination"
+          TopLeft="494,258" />
+        <NodeLayout
           Size="156,42"
           Id="Package\Foreach Loop Container\Load Data\Flat File Source"
-          TopLeft="504,106" />
+          TopLeft="502,96" />
         <NodeLayout
           Size="133,42"
           Id="Package\Foreach Loop Container\Load Data\Row Count"
-          TopLeft="512,198" />
+          TopLeft="510,172" />
         <EdgeLayout
-          Id="Package\Foreach Loop Container\Load Data.Paths[Flat File Source Output]"
-          TopLeft="580.25,148">
+          Id="Package\Foreach Loop Container\Load Data.Paths[Row Count Output 1]"
+          TopLeft="579.5,214">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,50"
+              EndConnector="0,44"
               Start="0,0"
-              End="0,42.5">
+              End="0,36.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,42.5" />
+                    End="0,36.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -821,36 +825,20 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="177,42"
-          Id="Package\Foreach Loop Container\Load Data\OLE DB Destination"
-          TopLeft="504,334" />
         <EdgeLayout
-          Id="Package\Foreach Loop Container\Load Data.Paths[Row Count Output 1]"
-          TopLeft="578.5,240">
+          Id="Package\Foreach Loop Container\Load Data.Paths[Flat File Source Output]"
+          TopLeft="578.25,138">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="14,94"
+              EndConnector="0,34"
               Start="0,0"
-              End="14,86.5">
+              End="0,26.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,43" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,43"
-                    Point2="0,47"
-                    Point3="4,47" />
-                  <mssgle:LineSegment
-                    End="10,47" />
-                  <mssgle:CubicBezierSegment
-                    Point1="10,47"
-                    Point2="14,47"
-                    Point3="14,51" />
-                  <mssgle:LineSegment
-                    End="14,86.5" />
+                    End="0,26.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>

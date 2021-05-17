@@ -1,25 +1,25 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
   DTS:CreationDate="5/16/2021 7:39:53 PM"
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="LAPTOP-1H8H7BRJ"
   DTS:CreatorName="LAPTOP-1H8H7BRJ\Ahmed's Thinkpad"
-  DTS:DTSID="{CB5CA641-C39E-4815-9D98-6F03FB4CCE78}"
+  DTS:DTSID="{8223C6FD-C253-4E54-A260-0152672A1D75}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="15.0.2000.166"
   DTS:LocaleID="16393"
   DTS:ObjectName="AGENT-TEST"
   DTS:PackageType="5"
   DTS:VersionBuild="3"
-  DTS:VersionGUID="{AF69981F-6188-4F5D-A2EB-EAEF6EA4E7B3}">
+  DTS:VersionGUID="{581B6598-1807-42D9-90DC-F0DB750DDB44}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[Flat File Connection Manager]"
       DTS:CreationName="FLATFILE"
-      DTS:DTSID="{7A5700DB-80D6-4CD7-9C7C-544976BF650F}"
+      DTS:DTSID="{755CFB70-C281-4F30-9FC5-96507CAEA05D}"
       DTS:ObjectName="Flat File Connection Manager">
       <DTS:ObjectData>
         <DTS:ConnectionManager
@@ -39,7 +39,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ID"
-              DTS:DTSID="{728A2734-9896-4565-B506-44C21F0D1FFB}"
+              DTS:DTSID="{4C6F6869-9C7E-4BCD-8E7D-2E2747D7C317}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -48,7 +48,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="TYPE_OR_NAME"
-              DTS:DTSID="{3A8A147D-E1DE-44BC-84E2-F90C83DD85E1}"
+              DTS:DTSID="{6226E58F-655B-4551-8CF5-81436F941B77}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -57,7 +57,7 @@
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[LAPTOP-1H8H7BRJ.SQL-TEST]"
       DTS:CreationName="OLEDB"
-      DTS:DTSID="{898BCED7-8003-4DC4-8424-1064E659F9A9}"
+      DTS:DTSID="{88708A64-0689-4022-BC1A-50313B28EB41}"
       DTS:ObjectName="LAPTOP-1H8H7BRJ.SQL-TEST">
       <DTS:ObjectData>
         <DTS:ConnectionManager
@@ -73,7 +73,7 @@
       DTS:refId="Package\FlatFile to SQL Table"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:DTSID="{02E82871-9B73-48D1-9022-11199F28DF6C}"
+      DTS:DTSID="{496F5B12-3832-4CE2-8A9B-ECC5661C4680}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
       DTS:ObjectName="FlatFile to SQL Table"
